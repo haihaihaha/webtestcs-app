@@ -1,0 +1,424 @@
+/* Home样式 */
+/* 主体大容器 */
+*{
+    margin: 0px;
+}
+.container__home{
+    /*在body中水平居中*/
+    margin: auto; 
+
+    display: flex;
+    flex-direction: column;
+
+    width: 1440px;
+    /* height: 1024px;   */
+    height: auto;
+    /* background-color: white; */
+    background-color: #E6E6FA;
+    /* 阴影效果 */
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+}
+
+/* 背景图片一的盒子 */
+.box__img1{
+    background-image: url('../../../public/image/Navbar.png') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 512px;
+}
+/* 背景图片3的盒子 */
+.box__img3{
+    background: url('../../../public/image/Looking.png') no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 512px;
+    /* background-color: blueviolet; */
+}
+/* 空盒子 */
+.box__k{
+    /* background-color: white; */
+    width: 100%;
+    text-align: center;
+}
+
+/* 导航栏样式 */
+.nav__fixed{/* 固定导航条 */
+    display:flow-root;
+    position:fixed;
+    width:1440px;
+    background-color: #2A2AD1;
+}
+.nav__ul{/* 导航列表 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* border: 1px solid #e7e7e7; */
+    background-color: transparent;
+    float: right;
+}
+.nav__ul li{
+    float: left;
+    margin: 40px 50px 5px 20px;
+    color: white;
+}
+.nav__ul a{
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav__ul button{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.logobox{/* 导航LOGO */
+    display: flex; 
+    align-items: center;
+    /* 垂直居中 */
+    /* flex:1; */
+}
+.logobox span{
+    color: white;
+    font-size: 20px;
+}
+.text__box{/* 文字盒子 */
+    margin: 140px 100px 0px 100px;
+}
+.text__box p {
+    color: white;
+    margin: 30px 0;
+}
+.text__box button{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px 0;
+}
+/* popuular_search_box */
+.popular_search_box{
+    margin: 10px;
+}
+.popular_search_box input{
+    border-style: solid;
+    border-color: #4D4DDB;/* border-color必须和border-style一起使用 */
+    border-radius: 8px;
+    background-color: transparent;/* 设置背景为无色 */
+    padding: 13px 20px;
+    outline-style:none;
+    margin: 0 10px;
+    text-align: center;
+}
+.popular_search_box select{
+    border-color: #4D4DDB;
+    border-radius: 8px;
+    background-color: transparent;
+    height: 45px;
+    padding: 10px 20px;
+    margin: 0 20px;
+    outline-style: none;
+    font-size: 15px;
+}
+.popular_search_box button{
+    border-style: none;
+    border-color: #2A2AD1;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 15px;
+    margin: 0 20px;
+    background-color: #2A2AD1;
+    color: white;
+}
+.popular_searchshow_box{
+    margin: 10px 0;
+}
+.popular_searchshow_box span{
+    font-size: 16px;
+}
+.popular_searchshow_box button{
+    border-style: none;
+    border-color: #4D4DDB;
+    border-radius: 4px;
+    padding: 5px 30px;
+    margin: 0 5px;
+    font-size: 15px;
+    background-color: #4D4DDB;
+    color: white;
+}
+/* popular_category */
+.popular_category{
+
+    background: url('../../../public/image/Popular_Category.png') no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1024px;
+    /* background-color: yellowgreen; */
+
+    display: flex;
+    align-items: center;/* 垂直居中 */
+}
+.popular_category_left{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+
+    width: 50%;
+    height: 500px;
+
+    margin: 200px 0 0 50px;
+    padding: 10px;
+    /* background-color: turquoise; */
+}
+.img_p_box{
+    flex-basis: 40%;
+
+    border-radius: 4px;
+    width: 300px;
+    height: 150px;
+    padding: 20px 10px ;
+    background-color: #17175C;
+    margin: 10px;
+}
+.img_box{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 8px;
+    text-align: center;
+}
+.img_p_box span{
+    color: white;
+    font-size: 18px;
+    margin: 10px 0px 0px 20px;
+}
+.img_p_box p{
+    color: white;
+    font-size: 14px;
+    margin: 5px 50px 0px 20px;
+    text-align: left;
+}
+.popular_category_right{
+    flex: 1;
+    width: 50%;
+    padding: 50px 50px;
+
+    /* background-color: turquoise; */
+}
+.popular_category_right span{
+    color: white;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.popular_category_right p{
+    color: white;
+    font-size: 15px;
+    margin: 20px 20px 0 0;
+}
+
+/* top_companies */
+.top_companies_box{
+    width: 100%;
+    height: 500px;
+    /* padding: 10px; */
+
+    display: flex;
+    align-items: center;/* 垂直居中 */
+    
+    /* background-color: yellowgreen; */
+}
+.top_companies_box_left{
+    flex: 1;
+    width: 50%;
+    
+    margin: 0 50px;
+}
+.top_companies_box_left span{
+    color: black;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.top_companies_box_left p{
+    color: black;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.top_companies_box_right{
+    flex: 1;
+    width: 50%;
+    padding: 40px;
+}
+.img_p_box2{
+    background-color: white;
+    width: 280px;
+    height: 150px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 40px 5px;
+}
+.img_p_box2 span{
+    font-size: 18px;
+    margin: 0 20px;
+}
+.img_p_box2 p{
+    font-size: 14px;
+    margin: 10px 20px;
+}
+/* Looking */
+.looking_box{
+    background-image: url(/public/image/Looking.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    width: 100%;
+    height: 1024px;
+
+    display: flex;
+    justify-content: center;/* 水平居中 */
+    align-items: center;/* 垂直居中 */
+
+    /* background-color: tomato; */
+}
+.looking_text{
+    width: 50%;
+    padding: 90px;
+}
+.looking_text span{
+    color: white;
+    font-size: 40px;
+}
+.looking_text p{
+    color: white;
+    font-size: 20px;
+    margin: 40px 0;
+}
+.looking_text button{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+
+    padding: 10px 30px;
+
+    border-radius: 8px;
+}
+
+/* testimonial */
+.testimonial_box{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+.testimonial_doc{
+    margin: 0 20px;
+}
+.testimonial_doc span{
+    font-size: 48px;
+    /* font-weight: bolder; */
+}
+.testimonial_doc p{
+    font-size: 20px;
+    margin: 30px 0;
+    height: 200px;
+}
+/* footer */
+.footer_box{
+    width: 100%;
+    height: 1024px;
+    background-image: url(../../../public/image/Footer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    display: flex;
+    /* 水平居中 */
+    justify-content: center;
+    
+    /* align-items: center; */
+
+}
+.footer_box span{
+    font-size: 24px;
+    color: white;
+    margin: 10px 0;
+    display: inline-block;/* margin不起作用的原因往往是没有考虑到display：“display:block”或者“display:inline”. */
+}
+.footer_box h3{
+    font-size: 32px;
+    color: white;
+    margin: 30px 0 20px 0;
+}
+
+.footer_doc1{
+    /* flex: 1; */
+    /* background-color: turquoise; */
+    width: 200px;
+
+    margin: 300px 10px 0 10px;
+}
+.footer_doc2{
+    /* flex: 2; */
+    /* background-color: thistle; */
+    width: 400px;
+
+    margin: 300px 10px 0 10px;
+}
+.footer_doc3{
+    /* flex: 2; */
+    /* background-color: thistle; */
+    top: 0px;
+    width: 400px;
+    margin: 300px 10px 0 10px;
+}
+/* 内嵌按钮的输入框 */
+.int_innerbut{
+    position: relative;
+    width: 348px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    margin: 30px 0 0 0;
+        
+}
+.int_innerbut input{
+    width: 348px;
+    height:55px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 8px;
+    list-style: none;
+    font-size: 24px;
+    color: white;
+}
+.int_innerbut button{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: #4D4DDB;
+    color: white;
+    border-radius: 4px;
+    outline: none; 
+    height: 40px;
+    width: 100px;
+    font-size: 24px;
+    padding: 0 10px;
+    text-align: center;
+}
+

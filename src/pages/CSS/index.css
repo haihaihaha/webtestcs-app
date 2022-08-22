@@ -1,0 +1,108 @@
+/* 登录页面公共样式 */
+.container{
+    /*在body中水平居中*/
+    margin: auto; 
+    /* 在body中垂直居中 */
+    position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+
+    display: flex;
+    justify-content: center;/* 水平居中 */
+    align-items: center;/* 垂直居中 */
+    width: 720px;
+    height: 512px;   
+    background-color: gray;
+    /* 阴影效果 */
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+}
+/* 登录页 左侧 */
+.container__left {
+    /* 内：水平 垂直居中 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    background-color: #9A9AEB;
+    /* width: 50%; */
+    height: 100%;
+}
+/* 登录页 右侧 */
+.container__right {
+    /* 内：水平 垂直居中 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 1;
+    background-color: white;
+    /* width: 50%; */
+    height: 100%;
+}
+/*  */
+/* 表单样式 */
+.formbox{
+    margin: 10px;
+    width: 70%;
+    /* text-align: center; */
+}
+.title{/* 登录标题 */
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.inputbox{/* 输入外盒子 */
+    padding: 5px 0;
+    overflow: hidden;
+}
+.inp{/* 输入框样式 */
+    width: 248px;
+    background: url('../../../public/image/input_img.png') no-repeat;
+    background-size: 100% 100%;
+    border: 0px;
+    outline-style: none;
+    height: 30px;
+    /* margin: 5px 0; */
+}
+.inputbox select{
+    width: 100%;
+    background: url('../../../public/image/input_img.png') no-repeat;
+    background-size: 100% 100%;
+    border: 0px;
+    outline-style: none;
+    height: 30px;
+    /* margin: 1px 0; */
+}
+/*  */
+.otherbox{
+    /* display: flex; */
+    padding: 5px 0;
+    /* justify-content: center; */
+}
+.right{
+    margin-left: auto;
+}
+.tipbox{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 10px;
+}
+.but__login{
+    background: url('../../../public/image/but_login.png') no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+}
+/* 路由样式 */
+.link__black{
+    color: black;
+    text-decoration: none;
+}
+.link__blue{
+    color: blue;
+    text-decoration: none;
+}

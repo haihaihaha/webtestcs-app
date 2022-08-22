@@ -1,0 +1,29 @@
+/* SignUp样式 */
+.signup__img{
+    background: url('../../../public/image/login_bg.png') no-repeat 50% 50%;
+    background-size: 80% ;
+    background-color: #9A9AEB;
+}
+.signup__img2{
+    background: url('../../../public/image/signup_bg2.png') no-repeat 50% 50%;
+    background-size: 80% ;
+    background-color: #9A9AEB;
+}
+/* 上传头像 */
+.user_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #E6E6FA;
+    background-image: url(../../../public/image/ant-design_user-outlined.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0 80px;
+    position: relative;
+}
+.user_img img{
+    width: 25px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

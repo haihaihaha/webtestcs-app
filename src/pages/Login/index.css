@@ -1,0 +1,15 @@
+/* Login样式 */
+.login__img{
+    background: url('../../../public/image/login_bg.png') no-repeat 50% 50%;
+    background-size: 80% ;
+}
+/* 密码输入框 小眼睛 */
+.pass_eyes_box{
+    position: relative;
+}
+.pass_eyes_box img{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 20px;
+}

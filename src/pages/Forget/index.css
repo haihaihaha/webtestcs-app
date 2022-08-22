@@ -1,0 +1,11 @@
+/* Forget */
+.forget__img{
+    background: url('../../../public/image/forgot_bg1.png') no-repeat 50% 50%;
+    background-size: 80% ;
+    background-color: #9A9AEB;
+}
+.forget__img2{
+    background: url('../../../public/image/forgot_bg2.png') no-repeat 50% 50%;
+    background-size: 80% ;
+    background-color: #9A9AEB;
+}
